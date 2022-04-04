@@ -27,11 +27,13 @@ apktool d breizh_private_appli.apk
 
 on obtient donc tous les fichier de l'application et nous pouvons à présent travailler sur le code de l'application que l'on va ouvrir dans jadx Gui.
 
-![Files](https://github.com/Yo-0x/BreizhCTF2022/blob/main/files.png?raw=true)
+ ![Pasted image 20220403111439](https://user-images.githubusercontent.com/51168342/161565669-cd342d11-eba3-4139-afcf-c53fd19ee2a0.png)
+
 
 Ici nous pouvons voir un fichier LoginDataSource dont voici le code
 
-![[Pasted image 20220403111551.png]]
+![Pasted image 20220403111551](https://user-images.githubusercontent.com/51168342/161565700-a7465fff-7bed-4d5d-94af-4ad3c0cd911f.png)
+
 
 D'après l'énoncé la syntax du flag est BZHCTF{username-password}.
 En lisant rapidement le code nous obtenons le username **kalucheAdmin:))**
