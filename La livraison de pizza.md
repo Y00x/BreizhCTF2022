@@ -23,26 +23,29 @@ Après ouverture et analyse, il s'agit d'une trame USBMS USB Mass Storage donc o
 
 On commence d'abord le trie par taille.
 
-![[Pasted image 20220403114313.png]]
+![Pasted image 20220403114313](https://user-images.githubusercontent.com/51168342/161566093-0a9c9b6d-e3aa-48f8-aa4f-a8989769066e.png)
+
 on regarde les trames avec la plus grande longueur et on remarque qu'il s'agit d'une image avec le nom **Confidential.png**
 
-![[Pasted image 20220403114510.png]]
+![Pasted image 20220403114510](https://user-images.githubusercontent.com/51168342/161566114-c8a475fb-2aba-4f6e-b302-0c07d0f5908f.png)
 
-![[Pasted image 20220403114633.png]]
+![Pasted image 20220403114633](https://user-images.githubusercontent.com/51168342/161566147-45090a73-8d45-4745-a47f-9d1f5bd0f2c5.png)
+
 
 sur la trame la plus avec la plus grande longueur on remarque l'entête PNG on est donc sûr qu'il s'agit de l'image que nous devons récupérer. 
 
 Après avoir essayé de la dump depuis wireshark en vain. j'ai copié les bytes "As Hex Stream"
 et je les ai collé dans Cyberchef. Après convertion nous retrouvons les données de notre Image.
 
-![[Pasted image 20220403115017.png]]
+![Pasted image 20220403115017](https://user-images.githubusercontent.com/51168342/161566180-c942c96b-9ceb-45c4-9e91-5dcc7e4e6603.png)
+
 
 Il reste une subtilité. Pour que l'image soit valide, il faut que l'entête PNG soit valide.
 Elle doit donc commencé par **8950** en hexa. ce qui n'est pas notre cas ici.
 
-![[Pasted image 20220403115132.png]]
+![Pasted image 20220403115132](https://user-images.githubusercontent.com/51168342/161566208-8ea06d20-a63f-45c5-af3a-44b5a3864447.png)
 
 Nous enlevons donc tous ce qui se trouve avant l'entête PNG. 
 A présent il nous reste plus qu'a enregistré l'image et à l'ouvrir pour obtenir le flag.
+![Pasted image 20220403115245](https://user-images.githubusercontent.com/51168342/161566244-11038d7c-e2ae-4d62-9cfb-e33f25338613.png)
 
-![[Pasted image 20220403115245.png]]
