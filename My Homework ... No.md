@@ -14,7 +14,8 @@ Format : BZHCTF{sha512sum(binaire)}
 
 Premièrement on regarde les process en cours pour obtenir le PID.
 
-![[Pasted image 20220404101047.png]]
+![Pasted image 20220404101047](https://user-images.githubusercontent.com/51168342/161566322-bf672faf-a3d4-4e99-af06-9e314fd72acc.png)
+
 
 on peux ensuite récupérer l'execurable avec cette commande: 
 
