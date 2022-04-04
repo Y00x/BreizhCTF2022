@@ -27,7 +27,7 @@ apktool d breizh_private_appli.apk
 
 on obtient donc tous les fichier de l'application et nous pouvons à présent travailler sur le code de l'application que l'on va ouvrir dans jadx Gui.
 
-![Files](https://github.com/Yo-0x/BreizhCTF2022/blob/main/Pasted image 20220403111351.png?raw=true)
+![Files](https://github.com/Yo-0x/BreizhCTF2022/blob/main/files.png?raw=true)
 
 Ici nous pouvons voir un fichier LoginDataSource dont voici le code
 
