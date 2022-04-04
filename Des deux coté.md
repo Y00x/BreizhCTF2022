@@ -33,7 +33,8 @@ python2 vol.py -f ../../../../Downloads/memory.dmp --profile=Win7SP1x86_23418 cm
 
 On obtient alors la liste des processus et des commandes exécuté par les processus.
 
-![[Pasted image 20220404102702.png]]
+
+![Pasted image 20220404102702](https://user-images.githubusercontent.com/51168342/161565901-95df27ba-a93b-4c51-8e2d-39cea1b6e202.png)
 
 Plusieurs information intéréssantes ici : 
 
