@@ -42,6 +42,7 @@ et je les ai collé dans Cyberchef. Après convertion nous retrouvons les donné
 
 Il reste une subtilité. Pour que l'image soit valide, il faut que l'entête PNG soit valide.
 Elle doit donc commencé par **8950** en hexa. ce qui n'est pas notre cas ici.
+On retire donc toute la partie hexadecimal avant notre entête
 
 ![Pasted image 20220403115132](https://user-images.githubusercontent.com/51168342/161566208-8ea06d20-a63f-45c5-af3a-44b5a3864447.png)
 
