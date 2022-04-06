@@ -83,7 +83,7 @@ format du flag BZHCTF{malveillant.exe:ip:port}
 Avec la première partie du challenge nous avons plus d'informations.
 
 - Il existe un processus `RH-Appli-Connect.exe`
-- Nous devons trouvé un process malveillant, une ip et un port
+- Nous devons trouver un process malveillant, une ip et un port
 - Nous analysons le même dump
 
 Je ne suis pas certain mais je pense dans un premier temps que notre processus `RH-Appli-Connect.exe` n'est pas légitime.
