@@ -36,12 +36,12 @@ On obtient alors la liste des processus et des commandes exécuté par les proce
 
 ![Pasted image 20220404102702](https://user-images.githubusercontent.com/51168342/161565901-95df27ba-a93b-4c51-8e2d-39cea1b6e202.png)
 
-Plusieurs information intéréssantes ici : 
+Plusieurs informations intéréssantes ici : 
 
 - Une application `RH-Appli-Connect.exe` est en cours d'éxécution. (Utile pour la partie 2)
 - Un fichier `Employe Secret.txt` est ouvert avec notpad.exe
 
-D'après l'énoncer nous cherchons un fichier secret. Nous allons donc nous pencher sur la deuxième info intéréssantes.
+D'après l'énoncé nous cherchons un fichier secret. Nous allons donc nous pencher sur la deuxième info intéréssante.
 
 pour cela on dump le process `notepad.exe` avec le PID 3732
 
