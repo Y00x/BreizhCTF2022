@@ -19,7 +19,7 @@ Format: BZHCTF{}
 
 Nous téléchargeons la capture de trame wireshark.
 
-Après ouverture et analyse, il s'agit d'une trame USBMS USB Mass Storage donc on suppose que certaine donnée on été exifltré à l'aide d'une clé USB.
+Après ouverture et analyse, il s'agit d'une trame USBMS USB Mass Storage donc on suppose que certaines données ont été exifltrées à l'aide d'une clé USB.
 
 On commence d'abord le trie par taille.
 
@@ -45,7 +45,7 @@ Elle doit donc commencé par **8950** en hexa. ce qui n'est pas notre cas ici.
 
 ![Pasted image 20220403115132](https://user-images.githubusercontent.com/51168342/161566208-8ea06d20-a63f-45c5-af3a-44b5a3864447.png)
 
-Nous enlevons donc tous ce qui se trouve avant l'entête PNG. 
+Nous enlevons donc tout ce qui se trouve avant l'entête PNG. 
 A présent il nous reste plus qu'a enregistré l'image et à l'ouvrir pour obtenir le flag.
 ![Pasted image 20220403115245](https://user-images.githubusercontent.com/51168342/161566244-11038d7c-e2ae-4d62-9cfb-e33f25338613.png)
 
