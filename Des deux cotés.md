@@ -9,6 +9,8 @@ Autheur: Worty
 - On chercher un fichier avec des données confidentielles
 - Après un imageinfo on remarque que la machine est un Windows 7
 
+On utilise donc volatility pour récupérer le profile du dump mémoire
+
 ```bash
 python2 vol.py -f ../../../../Downloads/memory.dmp imageinfo
 
