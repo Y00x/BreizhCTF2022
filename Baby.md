@@ -14,7 +14,7 @@ Format : BZHCTF{}
 
 Nous pouvons faire un `file baby` pour remarquer que le binaire est un ELF 64-bit.
 
-Pour les challenge de reverse easy nous pouvons faire un strings dessus pour voir si il nous retourne des information intéréssante et pourquoi pas le flag. 
+Pour les challenge de reverse easy nous pouvons faire un strings dessus pour voir si il nous retourne des informations intéréssantes et pourquoi pas le flag. 
 
 ```bash
 strings baby | grep -i bzh
