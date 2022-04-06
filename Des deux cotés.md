@@ -1,4 +1,4 @@
-## Des deux coté 1/2
+## Des deux cotés 1/2
 ```
 Catégoie: Forensic
 Autheur: Worty
@@ -72,7 +72,7 @@ Bingo !! le flag
 
 `BZHCTF{fr33_cr3d3nti4ls}`
 
-## Des deux coté 2/2
+## Des deux cotés 2/2
 ```
 Catégoie: Forensic
 Autheur: Worty
